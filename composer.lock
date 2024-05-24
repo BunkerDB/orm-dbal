@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/adapter-mysql.git",
-                "reference": "3d733c74bd57351ae5940922c84af8e72c720d69"
+                "reference": "57ad2c4885c9fcd11add28d83dcb82adb8cd25af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/3d733c74bd57351ae5940922c84af8e72c720d69",
-                "reference": "3d733c74bd57351ae5940922c84af8e72c720d69",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/57ad2c4885c9fcd11add28d83dcb82adb8cd25af",
+                "reference": "57ad2c4885c9fcd11add28d83dcb82adb8cd25af",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/adapter-mysql/tree/master"
             },
-            "time": "2024-05-24T22:54:31+00:00"
+            "time": "2024-05-24T23:11:54+00:00"
         },
         {
             "name": "bunkerdb/adapter-sql-performance",
@@ -59,12 +59,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/adapter-sql-performance.git",
-                "reference": "aaf0e818702c77b75cc79e7844a0d85dc354121b"
+                "reference": "4a67384a47f60dca4762b5769356c4b819e3a0d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/adapter-sql-performance/zipball/aaf0e818702c77b75cc79e7844a0d85dc354121b",
-                "reference": "aaf0e818702c77b75cc79e7844a0d85dc354121b",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-sql-performance/zipball/4a67384a47f60dca4762b5769356c4b819e3a0d3",
+                "reference": "4a67384a47f60dca4762b5769356c4b819e3a0d3",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
                     "src/"
                 ],
                 "psr-4": {
-                    "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
+                    "BunkerDB\\ORM\\DBAL\\Adapter\\": "src/"
                 }
             },
             "autoload-dev": {
@@ -102,7 +102,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/adapter-sql-performance/tree/master"
             },
-            "time": "2024-05-24T20:43:32+00:00"
+            "time": "2024-05-24T23:11:06+00:00"
         },
         {
             "name": "bunkerdb/interface-adapter",
