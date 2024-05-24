@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a02fb497ad911ca4f6c7185008d6427",
+    "content-hash": "ecfde1afc3365f954598541d1466fa43",
     "packages": [
+        {
+            "name": "bunkerdb/adapter-mysql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BunkerDB/adapter-mysql.git",
+                "reference": "741bfcea0f2e2c9b42af7488c85706e5c3c670df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/741bfcea0f2e2c9b42af7488c85706e5c3c670df",
+                "reference": "741bfcea0f2e2c9b42af7488c85706e5c3c670df",
+                "shasum": ""
+            },
+            "require": {
+                "bunkerdb/adapter-sql-performance": "dev-master",
+                "cratia/common-functions": ">=0.1",
+                "cratia/interface-adapter": ">=0.1",
+                "cratia/pipeline": ">=0.7",
+                "ext-json": "*",
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carlos Ratia",
+                    "email": "cratia.github@gmail.com"
+                }
+            ],
+            "description": "Implementation over abstraction IAdapter for creating and execution Doctrine\\DBAL\\Connection instances over driver Mysql",
+            "support": {
+                "source": "https://github.com/BunkerDB/adapter-mysql/tree/master"
+            },
+            "time": "2024-05-24T20:41:35+00:00"
+        },
         {
             "name": "bunkerdb/adapter-sql-performance",
             "version": "dev-master",
@@ -632,53 +679,6 @@
         }
     ],
     "packages-dev": [
-        {
-            "name": "bunkerdb/adapter-mysql",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/BunkerDB/adapter-mysql.git",
-                "reference": "741bfcea0f2e2c9b42af7488c85706e5c3c670df"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/741bfcea0f2e2c9b42af7488c85706e5c3c670df",
-                "reference": "741bfcea0f2e2c9b42af7488c85706e5c3c670df",
-                "shasum": ""
-            },
-            "require": {
-                "bunkerdb/adapter-sql-performance": "dev-master",
-                "cratia/common-functions": ">=0.1",
-                "cratia/interface-adapter": ">=0.1",
-                "cratia/pipeline": ">=0.7",
-                "ext-json": "*",
-                "php": ">=7.1"
-            },
-            "default-branch": true,
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ],
-                "psr-4": {
-                    "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Carlos Ratia",
-                    "email": "cratia.github@gmail.com"
-                }
-            ],
-            "description": "Implementation over abstraction IAdapter for creating and execution Doctrine\\DBAL\\Connection instances over driver Mysql",
-            "support": {
-                "source": "https://github.com/BunkerDB/adapter-mysql/tree/master"
-            },
-            "time": "2024-05-24T20:41:35+00:00"
-        },
         {
             "name": "doctrine/instantiator",
             "version": "2.0.0",
