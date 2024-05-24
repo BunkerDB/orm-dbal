@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/adapter-mysql.git",
-                "reference": "3cf45e7aaa7d82af4ef175d9b46f6feeb20b014e"
+                "reference": "3d733c74bd57351ae5940922c84af8e72c720d69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/3cf45e7aaa7d82af4ef175d9b46f6feeb20b014e",
-                "reference": "3cf45e7aaa7d82af4ef175d9b46f6feeb20b014e",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/3d733c74bd57351ae5940922c84af8e72c720d69",
+                "reference": "3d733c74bd57351ae5940922c84af8e72c720d69",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/adapter-mysql/tree/master"
             },
-            "time": "2024-05-24T22:26:17+00:00"
+            "time": "2024-05-24T22:54:31+00:00"
         },
         {
             "name": "bunkerdb/adapter-sql-performance",
@@ -110,12 +110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/interface-adapter.git",
-                "reference": "64a854d76c71cfcdebc4ee47afe0a708d85221f6"
+                "reference": "47bb86885c4e7738eec9d8e9aa2e1965cc1083be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/interface-adapter/zipball/64a854d76c71cfcdebc4ee47afe0a708d85221f6",
-                "reference": "64a854d76c71cfcdebc4ee47afe0a708d85221f6",
+                "url": "https://api.github.com/repos/BunkerDB/interface-adapter/zipball/47bb86885c4e7738eec9d8e9aa2e1965cc1083be",
+                "reference": "47bb86885c4e7738eec9d8e9aa2e1965cc1083be",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/interface-adapter/tree/master"
             },
-            "time": "2024-05-24T22:23:17+00:00"
+            "time": "2024-05-24T22:52:10+00:00"
         },
         {
             "name": "bunkerdb/orm-dql",
@@ -154,12 +154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/orm-dql.git",
-                "reference": "ad951ee3596840c4eb9f7d706f3a10c9e132ff4a"
+                "reference": "fd246b53798451d4d635853b8dbdfe8061f98f86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/orm-dql/zipball/ad951ee3596840c4eb9f7d706f3a10c9e132ff4a",
-                "reference": "ad951ee3596840c4eb9f7d706f3a10c9e132ff4a",
+                "url": "https://api.github.com/repos/BunkerDB/orm-dql/zipball/fd246b53798451d4d635853b8dbdfe8061f98f86",
+                "reference": "fd246b53798451d4d635853b8dbdfe8061f98f86",
                 "shasum": ""
             },
             "require": {
@@ -197,7 +197,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/orm-dql/tree/master"
             },
-            "time": "2024-05-24T20:10:44+00:00"
+            "time": "2024-05-24T21:20:43+00:00"
         },
         {
             "name": "cratia/common-functions",
