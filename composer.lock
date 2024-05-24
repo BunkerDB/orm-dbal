@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "134293acd83556a84a137bbdcae985eb",
+    "content-hash": "883b80fe9ca95215aa06e285f6f59758",
     "packages": [
         {
             "name": "bunkerdb/adapter-mysql",

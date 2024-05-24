@@ -60,7 +60,6 @@
             "Tests\\Cratia\\ORM\\DBAL\\": "tests/"
         }
     },
-    "minimum-stability": "stable",
     "scripts": {
         "test": "phpunit"
     }
