@@ -40,7 +40,7 @@ class EventQueryExecuteBeforePayload extends EventArgs implements JsonSerializab
     /**
      * @inheritDoc
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return ['sql' => $this->getSql()];
     }

@@ -40,7 +40,7 @@ class EventQueryExecuteAfterPayload extends EventArgs implements JsonSerializabl
     /**
      * @inheritDoc
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return ['dto' => $this->getDto()];
     }
