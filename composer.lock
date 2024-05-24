@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "883b80fe9ca95215aa06e285f6f59758",
+    "content-hash": "134293acd83556a84a137bbdcae985eb",
     "packages": [
         {
             "name": "bunkerdb/adapter-mysql",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/adapter-mysql.git",
-                "reference": "57ad2c4885c9fcd11add28d83dcb82adb8cd25af"
+                "reference": "6a75f877b003ddec04df4db8fe03718822c0b651"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/57ad2c4885c9fcd11add28d83dcb82adb8cd25af",
-                "reference": "57ad2c4885c9fcd11add28d83dcb82adb8cd25af",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/6a75f877b003ddec04df4db8fe03718822c0b651",
+                "reference": "6a75f877b003ddec04df4db8fe03718822c0b651",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/adapter-mysql/tree/master"
             },
-            "time": "2024-05-24T23:11:54+00:00"
+            "time": "2024-05-24T23:33:49+00:00"
         },
         {
             "name": "bunkerdb/adapter-sql-performance",
