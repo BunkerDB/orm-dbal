@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e63a8470f739edcd72b058a7d1eecb6a",
+    "content-hash": "1a02fb497ad911ca4f6c7185008d6427",
     "packages": [
+        {
+            "name": "bunkerdb/adapter-sql-performance",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BunkerDB/adapter-sql-performance.git",
+                "reference": "aaf0e818702c77b75cc79e7844a0d85dc354121b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-sql-performance/zipball/aaf0e818702c77b75cc79e7844a0d85dc354121b",
+                "reference": "aaf0e818702c77b75cc79e7844a0d85dc354121b",
+                "shasum": ""
+            },
+            "require": {
+                "cratia/common-functions": ">=0.1",
+                "ext-json": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\Cratia\\ORM\\DBAL\\Adapter\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carlos Ratia",
+                    "email": "cratia.github@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/BunkerDB/adapter-sql-performance/tree/master"
+            },
+            "time": "2024-05-24T20:43:32+00:00"
+        },
         {
             "name": "bunkerdb/orm-dql",
             "version": "dev-master",
@@ -56,53 +107,6 @@
                 "source": "https://github.com/BunkerDB/orm-dql/tree/master"
             },
             "time": "2024-05-24T20:10:44+00:00"
-        },
-        {
-            "name": "cratia/adapter-sql-performance",
-            "version": "0.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/carlos-ratia/adapter-sql-performance.git",
-                "reference": "31790323129f09f0324baee1e1c8c920131e5fee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/carlos-ratia/adapter-sql-performance/zipball/31790323129f09f0324baee1e1c8c920131e5fee",
-                "reference": "31790323129f09f0324baee1e1c8c920131e5fee",
-                "shasum": ""
-            },
-            "require": {
-                "cratia/common-functions": ">=0.1",
-                "ext-json": "*",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
-                },
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Carlos Ratia",
-                    "email": "cratia.github@gmail.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/carlos-ratia/adapter-sql-performance/issues",
-                "source": "https://github.com/carlos-ratia/adapter-sql-performance/tree/0.1.3"
-            },
-            "time": "2020-02-26T20:14:19+00:00"
         },
         {
             "name": "cratia/common-functions",
@@ -629,37 +633,37 @@
     ],
     "packages-dev": [
         {
-            "name": "cratia/adapter-mysql",
-            "version": "0.2.5",
+            "name": "bunkerdb/adapter-mysql",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/carlos-ratia/adapter-mysql.git",
-                "reference": "91351a78aeffb1977472e8865d65108b3a1f8ea9"
+                "url": "https://github.com/BunkerDB/adapter-mysql.git",
+                "reference": "741bfcea0f2e2c9b42af7488c85706e5c3c670df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carlos-ratia/adapter-mysql/zipball/91351a78aeffb1977472e8865d65108b3a1f8ea9",
-                "reference": "91351a78aeffb1977472e8865d65108b3a1f8ea9",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/741bfcea0f2e2c9b42af7488c85706e5c3c670df",
+                "reference": "741bfcea0f2e2c9b42af7488c85706e5c3c670df",
                 "shasum": ""
             },
             "require": {
-                "cratia/adapter-sql-performance": ">=0.1",
+                "bunkerdb/adapter-sql-performance": "dev-master",
                 "cratia/common-functions": ">=0.1",
                 "cratia/interface-adapter": ">=0.1",
                 "cratia/pipeline": ">=0.7",
                 "ext-json": "*",
                 "php": ">=7.1"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
-                },
                 "classmap": [
                     "src/"
-                ]
+                ],
+                "psr-4": {
+                    "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
+                }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -671,10 +675,9 @@
             ],
             "description": "Implementation over abstraction IAdapter for creating and execution Doctrine\\DBAL\\Connection instances over driver Mysql",
             "support": {
-                "issues": "https://github.com/carlos-ratia/adapter-mysql/issues",
-                "source": "https://github.com/carlos-ratia/adapter-mysql/tree/master"
+                "source": "https://github.com/BunkerDB/adapter-mysql/tree/master"
             },
-            "time": "2020-02-27T22:06:38+00:00"
+            "time": "2024-05-24T20:41:35+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2660,7 +2663,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "bunkerdb/orm-dql": 20
+        "bunkerdb/orm-dql": 20,
+        "bunkerdb/adapter-sql-performance": 20,
+        "bunkerdb/adapter-mysql": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
