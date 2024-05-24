@@ -14,16 +14,20 @@
         {
             "type": "vcs",
             "url": "https://github.com/bunkerdb/adapter-sql-performance"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bunkerdb/interface-adapter"
         }
     ],
     "require": {
         "bunkerdb/orm-dql": "dev-master",
         "cratia/pipeline": ">=0.7",
-        "doctrine/dbal": "^2.10",
+        "doctrine/dbal": "^4.0.2",
         "php": ">=7.1",
         "ext-json": "*",
-        "psr/log": "^1.1",
-        "cratia/interface-adapter": ">=0.1",
+        "psr/log": "^3.0",
+        "bunkerdb/interface-adapter": "dev-master",
         "cratia/common-functions": ">=0.1",
         "bunkerdb/adapter-sql-performance": "dev-master",
         "bunkerdb/adapter-mysql": "dev-master"
