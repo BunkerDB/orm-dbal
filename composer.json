@@ -1,5 +1,5 @@
 {
-    "name": "cratia/orm-dbal",
+    "name": "bunkerdb/orm-dbal",
     "description": "Database abstraction layer (DBAL) for execute Query based on https://www.doctrine-project.org/projects/dbal.html",
     "type": "library",
     "require": {
