@@ -59,12 +59,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/adapter-sql-performance.git",
-                "reference": "4a67384a47f60dca4762b5769356c4b819e3a0d3"
+                "reference": "e50de658c97059f8a62364e9305533452abc1f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/adapter-sql-performance/zipball/4a67384a47f60dca4762b5769356c4b819e3a0d3",
-                "reference": "4a67384a47f60dca4762b5769356c4b819e3a0d3",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-sql-performance/zipball/e50de658c97059f8a62364e9305533452abc1f18",
+                "reference": "e50de658c97059f8a62364e9305533452abc1f18",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/adapter-sql-performance/tree/master"
             },
-            "time": "2024-05-24T23:11:06+00:00"
+            "time": "2024-05-24T23:34:36+00:00"
         },
         {
             "name": "bunkerdb/interface-adapter",
@@ -110,12 +110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/interface-adapter.git",
-                "reference": "47bb86885c4e7738eec9d8e9aa2e1965cc1083be"
+                "reference": "3146b8b0125a1188f8c8c814c17ee5f81a2db0f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/interface-adapter/zipball/47bb86885c4e7738eec9d8e9aa2e1965cc1083be",
-                "reference": "47bb86885c4e7738eec9d8e9aa2e1965cc1083be",
+                "url": "https://api.github.com/repos/BunkerDB/interface-adapter/zipball/3146b8b0125a1188f8c8c814c17ee5f81a2db0f5",
+                "reference": "3146b8b0125a1188f8c8c814c17ee5f81a2db0f5",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +146,7 @@
             "support": {
                 "source": "https://github.com/BunkerDB/interface-adapter/tree/master"
             },
-            "time": "2024-05-24T22:52:10+00:00"
+            "time": "2024-05-24T23:34:49+00:00"
         },
         {
             "name": "bunkerdb/orm-dql",
