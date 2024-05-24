@@ -2,8 +2,14 @@
     "name": "bunkerdb/orm-dbal",
     "description": "Database abstraction layer (DBAL) for execute Query based on https://www.doctrine-project.org/projects/dbal.html",
     "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bunkerdb/orm-dql"
+        }
+    ],
     "require": {
-        "cratia/orm-dql": ">=0.1",
+        "bunkerdb/orm-dql": "dev-master",
         "cratia/pipeline": ">=0.7",
         "doctrine/dbal": "^2.10",
         "php": ">=7.1",
