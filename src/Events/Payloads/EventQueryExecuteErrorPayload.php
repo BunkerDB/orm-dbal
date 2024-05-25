@@ -6,7 +6,7 @@ namespace Cratia\ORM\DBAL\Events\Payloads;
 
 
 use Doctrine\Common\EventArgs;
-use Doctrine\DBAL\DBALException;
+use Exception as DBALException;
 use Exception;
 use JsonSerializable;
 

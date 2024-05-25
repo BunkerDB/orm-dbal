@@ -21,7 +21,7 @@ use Cratia\ORM\DQL\Sql;
 use Cratia\Pipeline;
 use Doctrine\Common\EventArgs;
 use Doctrine\Common\EventManager;
-use Doctrine\DBAL\DBALException;
+use Exception as DBALException;
 use Exception;
 use Psr\Log\LoggerInterface;
 

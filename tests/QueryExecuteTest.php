@@ -17,7 +17,7 @@ use Cratia\ORM\DQL\QueryUpdate;
 use Cratia\ORM\DQL\Sql;
 use Cratia\ORM\DQL\Table;
 use Doctrine\Common\EventManager;
-use Doctrine\DBAL\DBALException;
+use Exception as DBALException;
 use Exception;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
