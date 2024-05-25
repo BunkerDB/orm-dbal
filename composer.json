@@ -18,6 +18,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bunkerdb/interface-adapter"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/facuigua/common-functions"
         }
     ],
     "require": {
@@ -28,7 +32,7 @@
         "ext-json": "*",
         "psr/log": "^3.0",
         "bunkerdb/interface-adapter": "1.0.*",
-        "cratia/common-functions": ">=0.1",
+        "facuigua/common-functions": "1.0.*",
         "bunkerdb/adapter-sql-performance": "1.0.*",
         "bunkerdb/adapter-mysql": "1.0.*"
     },

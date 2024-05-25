@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "870d99192b55ea73981570f93ad0464f",
+    "content-hash": "0bd3b8f6b6579babaef08edfa0804922",
     "packages": [
         {
             "name": "bunkerdb/adapter-mysql",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/adapter-mysql.git",
-                "reference": "b816c9399dac585e5f5e47f405ef3a3cae8b8b76"
+                "reference": "b89df89db294d9f5949f122beade41aad36b02cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/b816c9399dac585e5f5e47f405ef3a3cae8b8b76",
-                "reference": "b816c9399dac585e5f5e47f405ef3a3cae8b8b76",
+                "url": "https://api.github.com/repos/BunkerDB/adapter-mysql/zipball/b89df89db294d9f5949f122beade41aad36b02cb",
+                "reference": "b89df89db294d9f5949f122beade41aad36b02cb",
                 "shasum": ""
             },
             "require": {
@@ -49,9 +49,9 @@
             ],
             "description": "Implementation over abstraction IAdapter for creating and execution Doctrine\\DBAL\\Connection instances over driver Mysql",
             "support": {
-                "source": "https://github.com/BunkerDB/adapter-mysql/tree/1.0.2"
+                "source": "https://github.com/BunkerDB/adapter-mysql/tree/1.0.3"
             },
-            "time": "2024-05-25T03:06:19+00:00"
+            "time": "2024-05-25T15:56:08+00:00"
         },
         {
             "name": "bunkerdb/adapter-sql-performance",
@@ -105,20 +105,22 @@
         },
         {
             "name": "bunkerdb/interface-adapter",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BunkerDB/interface-adapter.git",
-                "reference": "182fd36b8a7adfb1ce290ae1d267c90519ed7944"
+                "reference": "72bedde5cc731c6a45c210186d83a05f85622b5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BunkerDB/interface-adapter/zipball/182fd36b8a7adfb1ce290ae1d267c90519ed7944",
-                "reference": "182fd36b8a7adfb1ce290ae1d267c90519ed7944",
+                "url": "https://api.github.com/repos/BunkerDB/interface-adapter/zipball/72bedde5cc731c6a45c210186d83a05f85622b5f",
+                "reference": "72bedde5cc731c6a45c210186d83a05f85622b5f",
                 "shasum": ""
             },
             "require": {
+                "doctrine/common": "^3.4",
                 "doctrine/dbal": "^4.0.2",
+                "doctrine/event-manager": "^2.0",
                 "php": ">=8.3",
                 "psr/log": "^3.0"
             },
@@ -142,9 +144,9 @@
             ],
             "description": "Define abstraction para crear y ejecutar sobre instancias de Doctrine\\DBAL\\Connection",
             "support": {
-                "source": "https://github.com/BunkerDB/interface-adapter/tree/1.0.1"
+                "source": "https://github.com/BunkerDB/interface-adapter/tree/1.0.2"
             },
-            "time": "2024-05-25T02:31:48+00:00"
+            "time": "2024-05-25T03:56:38+00:00"
         },
         {
             "name": "bunkerdb/orm-dql",
@@ -717,6 +719,52 @@
                 }
             ],
             "time": "2024-03-12T14:54:36+00:00"
+        },
+        {
+            "name": "facuigua/common-functions",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facuigua/common-functions.git",
+                "reference": "f0927e0e2b05be9d7c55a1ea40a2ab05164c420b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facuigua/common-functions/zipball/f0927e0e2b05be9d7c55a1ea40a2ab05164c420b",
+                "reference": "f0927e0e2b05be9d7c55a1ea40a2ab05164c420b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "Cratia\\Common\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Test\\Cratia\\Common\\": "test/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carlos Ratia",
+                    "email": "cratia.github@gmail.com"
+                }
+            ],
+            "description": "Common Functions",
+            "support": {
+                "source": "https://github.com/facuigua/common-functions/tree/1.0.1"
+            },
+            "time": "2024-05-25T16:14:29+00:00"
         },
         {
             "name": "psr/cache",
